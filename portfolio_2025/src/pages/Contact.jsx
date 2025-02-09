@@ -1,4 +1,4 @@
-const ErrorPage = () => {
+const Contact = () => {
     return (
         <div>
             <h2>Contact Me</h2>
@@ -6,4 +6,4 @@ const ErrorPage = () => {
     )
 }
 
-export default ErrorPage;
+export default Contact;
