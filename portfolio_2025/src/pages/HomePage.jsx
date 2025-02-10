@@ -2,7 +2,7 @@ import Navigation from "../components/Navigation";
 
 const HomePage = () => {
     <div>
-        < Navigation />
+        <Navigation />
         <h2>Home Page</h2>
     </div>
 }
