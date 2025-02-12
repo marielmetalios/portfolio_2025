@@ -1,13 +1,20 @@
-const NavBar = ({links}) => {
-    return (
-        <nav>
-            <div>
-                <ul>
-                    {links.map((link) => link)}
-                </ul>
-            </div>
-        </nav>
-    )
-}
+import { Link } from 'react-router-dom';
 
-export default NavBar;
+
+const NavBar = ({ links }) => {
+    return (
+      <nav>
+        <ul>
+          {links.map((link) => (
+            <li key={link.to}>
+              <Link to={link.to}>
+                <h2>{link.label}</h2>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    );
+  };
+  
+  export default NavBar;

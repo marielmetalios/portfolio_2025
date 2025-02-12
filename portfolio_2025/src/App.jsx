@@ -9,7 +9,7 @@ function App() {
   return (
       <div>
         <Navigation />
-        <h2> Testing </h2>
+        {/* <h2> Testing </h2> */}
         <Outlet />
       </div>
   )

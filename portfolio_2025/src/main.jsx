@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage.jsx'
 import Portfolio from './pages/Portfolio.jsx'
 import Contact from './pages/Contact.jsx'
 import Resume from './pages/Resume.jsx'
+import AboutMe from './pages/AboutMe.jsx'
 
 import './index.css'
 
@@ -35,7 +36,7 @@ const router = createBrowserRouter ([
       element: <Portfolio />   
     },
     {
-      path: '/about',
+      path: '/aboutme',
       element: <AboutMe />   
     },
     {
@@ -48,4 +49,4 @@ const router = createBrowserRouter ([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
-)
+);
