@@ -32,7 +32,7 @@ const Contact = () => {
     return (
         <div className="px-6 py-24 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-left">
-                <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">Get in Touch</h2>
+                <h2 className="text-3xl font-bold text-left text-gray-800">Get in Touch</h2>
                 <p className="mx-w-sm mt-4 text-lg/8 text-gray-600">Please submit the form below! Looking forward to hearing from you.</p>
 
                 <form className="mx-auto mt-16 max-w-xl sm:mt-4" onSubmit={handleSubmit}>
