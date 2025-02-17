@@ -4,10 +4,6 @@
 
 This is a starter project for my future portfolio. It is a front-end site built with Vite / Javascript, React, and Tailwind. Please note **all** content here is "placeholder" information, including my "About Me" and the resume download. This site purpose is to test functionality, and the contact form stores information to local storage only. 
 
-## Installation
-
-Install all packages, adjust db data, and run node index.js to interact with the Inquirer prompts. Ensure you create and update an .env file with your credentials at the root level.
-
 ## Usage
 
 This is for personal use, mainly coding practice/education purposes, but can be replicated as a baseline for other projects. 
