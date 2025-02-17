@@ -1,6 +1,9 @@
 const Portfolio = () => {
     return (
-        <h2>Portfolio</h2>
+        <div>
+        <a href="https://joshuag0603.github.io/movieNsnackinator/index.html" className="align-left">
+        <img className = "w-100" src="../src/assets/movieRec.png"></img></a>
+        </div>
     )
 }
 

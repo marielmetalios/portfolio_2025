@@ -1,10 +1,10 @@
-import Navigation from "../components/Navigation";
+import pdf from "../assets/resume.pdf"
 
 const Resume = () => {
 
 return (
     <div>
-        <h2>Resume Page Here</h2>
+        <a href={pdf} download="resume.pdf">Click here to download</a>
     </div>
 );
 
